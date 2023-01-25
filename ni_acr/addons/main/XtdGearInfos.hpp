@@ -63,5 +63,14 @@ class XtdGearInfos {
         XTDACR68(hlc_rifle_ACR68_GL_MID_tan, "tan", "mid", "yes")
         XTDACR68(hlc_rifle_ACR68_GL_MID_black, "black", "mid", "yes")
         XTDACR68(hlc_rifle_ACR68_GL_MID_green, "green", "mid", "yes")
+
+        class hlc_rifle_ACR_SBR_cliffhanger {
+                model = QGVAR(acr_cliffhanger);
+                gl = "no";
+        };
+        class hlc_rifle_ACR_GL_SBR_cliffhanger {
+                model = QGVAR(acr_cliffhanger);
+                gl = "yes";
+        };
     };
 };

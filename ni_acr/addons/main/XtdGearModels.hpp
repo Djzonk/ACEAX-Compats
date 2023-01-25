@@ -106,5 +106,24 @@ class XtdGearModels {
                 };
             };
         };
+        class GVAR(acr_cliffhanger) {
+            label = "ACR-E Cliffhanger";
+            author = "Toadie | ACEAX Compat By DJZonk";
+            options[] = {"gl"};
+            class gl {
+                label = "Grenade Launcher";
+                values[] = {"no", "yes"};
+                changeingame = 0;
+                alwaysSelectable = 1;
+                class no {
+                    label = "No";
+                    // description = "";
+                };
+                class yes {
+                    label = "Yes";
+                    // description = "";
+                };
+            };
+        };
     };
 };
