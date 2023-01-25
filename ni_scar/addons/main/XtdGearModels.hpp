@@ -2,7 +2,7 @@ class XtdGearModels {
     class CfgWeapons {
         class GVAR(scarl) {
             label = "FN SCAR-L";
-            author = "Toadie | ACEAX Compat By UCE Team";
+            author = "Toadie | ACEAX Compat By DJZonk";
             options[] = {"camo", "gl", "barrel", "railExtension"};
             class camo {
                 label = "Camo";
@@ -68,7 +68,7 @@ class XtdGearModels {
         };
         class GVAR(scarl300){
            label = "FN SCAR-L (.300)";
-            author = "Toadie | ACEAX Compat By UCE Team";
+            author = "Toadie | ACEAX Compat By DJZonk";
             options[] = {"camo", "gl", "barrel", "railExtension"};
             class camo {
                 label = "Camo";
@@ -130,7 +130,7 @@ class XtdGearModels {
         };
         class GVAR(scarh) {
             label = "FN SCAR-H";
-            author = "Toadie | ACEAX Compat By UCE Team";
+            author = "Toadie | ACEAX Compat By DJZonk";
             options[] = {"camo", "gl", "barrel", "railExtension"};
             class camo {
                 label = "Camo";
@@ -196,7 +196,7 @@ class XtdGearModels {
         };
         class GVAR(scarsc) {
             label = "FN SCAR-SC";
-            author = "Toadie | ACEAX Compat By UCE Team";
+            author = "Toadie | ACEAX Compat By DJZonk";
             options[] = {"camo"};
             class camo {
                 label = "Camo";
@@ -218,7 +218,7 @@ class XtdGearModels {
         };
         class GVAR(tpr) {
             label = "FN TPR";
-            author = "Toadie | ACEAX Compat By UCE Team";
+            author = "Toadie | ACEAX Compat By DJZonk";
             options[] = {"camo"};
             class camo {
                 label = "Camo";
@@ -226,7 +226,6 @@ class XtdGearModels {
                 values[] = {"tan", "black", "camo"};
                 class tan {
                     label = "Tan";
-                    // image = "";
                 };
                 class black {
                     label = "Black";
@@ -240,7 +239,7 @@ class XtdGearModels {
         };
         class GVAR(mk17) {
             label = "MK 17";
-            author = "Toadie | ACEAX Compat By UCE Team";
+            author = "Toadie | ACEAX Compat By DJZonk";
             options[] = {"mod", "camo", "caliber", "barrel", "gl"};
             class mod {
                 label = "Mod";
@@ -261,7 +260,6 @@ class XtdGearModels {
                 values[] = {"tan", "camo"};
                 class tan {
                     label = "Tan";
-                    // image = "";
                 };
                 class camo {
                     label = "Camo";

@@ -2,7 +2,7 @@ class XtdGearModels {
     class CfgWeapons {
         class GVAR(acr) {
             label = "ACR-E";
-            author = "Toadie | ACEAX Compat By UCE Team";
+            author = "Toadie | ACEAX Compat By DJZonk";
             options[] = {"camo", "barrel", "gl"};
             class camo {
                 label = "Camo";
@@ -55,7 +55,7 @@ class XtdGearModels {
         };
         class GVAR(acr68) {
             label = "ACR-E 6.8mm";
-            author = "Toadie | ACEAX Compat By UCE Team";
+            author = "Toadie | ACEAX Compat By DJZonk";
             options[] = {"camo", "barrel", "gl"};
             class camo {
                 label = "Camo";
