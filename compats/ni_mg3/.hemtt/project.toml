@@ -1,0 +1,33 @@
+name = "ACEAX NIArms MG3 Compat"
+prefix = "aceax_niarmsmg3_compat"
+mainprefix = "z"
+[files]
+include = [
+    "mod.cpp",
+    "meta.cpp",
+    "README.md",
+    "LICENSE",
+    "logo_nimg3_ca.paa", # Change to propper file name
+]
+
+[version]
+path = "addons/main/mod_macros.hpp"
+git_hash = 0
+
+[hemtt.launch]
+workshop = [
+    # Will not auto download on workshop you must do so manually
+    "450814997",  # CBA_A3
+    "463939057",  # ACE
+    "2522638637"  # ACEAX
+
+    # Add workshop Ids here for the mods the compat is for
+    # to assis you or any other contributer with development testing
+]
+parameters = [
+    "-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-debug",
+    "-filePatching",
+]
