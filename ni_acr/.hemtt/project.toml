@@ -1,0 +1,23 @@
+name = "NIArms ACR-E ACEAX Compat"
+prefix = "niarmsacr_aceax_compat"
+
+[version]
+path = "addons/main/mod_macros.hpp"
+git_hash = 4
+
+[hemtt.launch]
+workshop = [
+    "450814997",  #CBA_A3
+    "463939057",  #ACE
+    "2522638637", #ACEAX
+
+    "667454606", #NIArms CORE
+    "875779698", #NIArms ACR-E
+]
+parameters = [
+    "-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-debug",
+    "-filePatching",
+]
