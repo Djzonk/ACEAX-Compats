@@ -1,9 +1,18 @@
 name = "NIArms ACR-E ACEAX Compat"
 prefix = "niarmsacr_aceax_compat"
+mainprefix = "z"
+[files]
+include = [
+    "mod.cpp",
+    "meta.cpp",
+    "README.md",
+    "LICENSE",
+    "logo_niacr_ca.paa", # Change to propper file name
+]
 
 [version]
 path = "addons/main/mod_macros.hpp"
-git_hash = 4
+git_hash = 0
 
 [hemtt.launch]
 workshop = [
