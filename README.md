@@ -12,7 +12,7 @@ You will need [HEMTT Version: 0.10 Alpha 14](https://github.com/BrettMayson/HEMT
 1. Put the Hemtt in the compat folder right next to the mod.cpp
 2. Use your terminal in the compat folder
 
-#### If you are building all the compats *TO BE IMPLIMENTED*
+#### If you are building an aio *TO BE IMPLIMENTED*
 1. Put Hemtt in the project root
 2. Use the Python tools in the `tools` folder
 
