@@ -1,4 +1,4 @@
-name = "NIArms ACR-E ACEAX Compat"
+name = "ACEAX NIArms ACR-E Compat"
 prefix = "niarmsacr_aceax_compat"
 mainprefix = "z"
 [files]

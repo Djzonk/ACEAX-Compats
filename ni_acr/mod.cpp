@@ -1,4 +1,4 @@
-name = "NIArms ACR-E ACEAX Compat";
+name = "ACEAX NIArms ACR-E Compat";
 picture = "logo_niacr_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/Djzonk";
