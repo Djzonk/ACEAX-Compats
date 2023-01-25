@@ -19,10 +19,10 @@ workshop = [
     # Will not auto download on workshop you must do so manually
     "450814997",  # CBA_A3
     "463939057",  # ACE
-    "2522638637"  # ACEAX
+    "2522638637",  # ACEAX
 
-    # Add workshop Ids here for the mods the compat is for
-    # to assis you or any other contributer with development testing
+    "667454606", #NIArms CORE
+    "774809509"  #NIArms MG3
 ]
 parameters = [
     "-skipIntro",
