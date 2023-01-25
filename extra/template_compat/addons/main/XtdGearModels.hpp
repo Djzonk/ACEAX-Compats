@@ -1,0 +1,4 @@
+class XtdGearModels {
+    class CfgWeapons {
+    };
+};

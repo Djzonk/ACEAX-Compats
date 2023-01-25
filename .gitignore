@@ -1,0 +1,12 @@
+@*
+hemtt
+hemtt.exe
+.hemtt/*
+.hemttout/*
+.vscode/*
+keys/*
+*.biprivatekey
+THumbs.db
+*~
+*.zip
+*.pbo
