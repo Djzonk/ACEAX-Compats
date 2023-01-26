@@ -13,12 +13,12 @@ class CfgPatches {
 
 class XtdGearModels {
     class CfgWeapons {
-
+        #include "xtdgearmodels\acr.hpp"
     };
 };
 
 class XtdGearInfos {
     class CfgWeapons {
-
+        #include "xtdgearinfos\acr.hpp"
     };
 };

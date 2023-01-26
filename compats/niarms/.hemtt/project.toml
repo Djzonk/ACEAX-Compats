@@ -21,7 +21,8 @@ workshop = [
     "463939057",  # ACE
     "2522638637",  # ACEAX
 
-    "667454606" #NIArms CORE
+    "667454606", #NIArms CORE
+    "875779698", #NIArms ACR-E
 ]
 parameters = [
     "-skipIntro",
