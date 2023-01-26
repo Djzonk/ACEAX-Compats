@@ -1,0 +1,34 @@
+name = "ACEAX NIArms MP5 Compat"
+prefix = "aceax_nimp5_compat"
+mainprefix = "z"
+[files]
+include = [
+    "mod.cpp",
+    "meta.cpp",
+    "README.md",
+    "LICENSE",
+    "logo_nimp5_ca.paa", # Change to propper file name
+]
+
+[version]
+path = "addons/main/mod_macros.hpp"
+git_hash = 0
+
+[hemtt.launch]
+workshop = [
+    # Will not auto download on workshop you must do so manually
+    "450814997",  # CBA_A3
+    "463939057",  # ACE
+    "2522638637",  # ACEAX
+
+
+    "667454606", #NIArms CORE
+    "330924923", #NIArms MP5
+]
+parameters = [
+    "-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-debug",
+    "-filePatching",
+]
