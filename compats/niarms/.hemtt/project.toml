@@ -7,7 +7,7 @@ include = [
     "meta.cpp",
     "README.md",
     "LICENSE",
-    "logo_niarms_ca.paa", # Change to propper file name
+    "logo_niarms_co.paa", # Change to propper file name
 ]
 
 [version]
@@ -23,6 +23,13 @@ workshop = [
 
     "667454606", #NIArms CORE
     "875779698", #NIArms ACR-E
+    "667386534", #NiArms M14
+    "774809509",  #NIArms MG3
+    "509714345",  # NIArms Minimi
+    "330924923", #NIArms MP5
+    "1091513876",  # NIArms P226
+    "2883704439", #NIArms SCAR
+    "592647598",  # NIArms SG510
 ]
 parameters = [
     "-skipIntro",

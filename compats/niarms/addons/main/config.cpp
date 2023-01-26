@@ -14,11 +14,25 @@ class CfgPatches {
 class XtdGearModels {
     class CfgWeapons {
         #include "xtdgearmodels\acr.hpp"
+        #include "xtdgearmodels\m14.hpp"
+        #include "xtdgearmodels\mg3.hpp"
+        #include "xtdgearmodels\minimi.hpp"
+        #include "xtdgearmodels\mp5.hpp"
+        #include "xtdgearmodels\p226.hpp"
+        #include "xtdgearmodels\scar.hpp"
+        #include "xtdgearmodels\sg510.hpp"
     };
 };
 
 class XtdGearInfos {
     class CfgWeapons {
         #include "xtdgearinfos\acr.hpp"
+        #include "xtdgearinfos\m14.hpp"
+        #include "xtdgearinfos\mg3.hpp"
+        #include "xtdgearinfos\minimi.hpp"
+        #include "xtdgearinfos\mp5.hpp"
+        #include "xtdgearinfos\p226.hpp"
+        #include "xtdgearinfos\scar.hpp"
+        #include "xtdgearinfos\sg510.hpp"
     };
 };
