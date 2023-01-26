@@ -1,6 +1,6 @@
 #define COMPONENT main
 #define MAINPREFIX z
-#define PREFIX aceax_niarmsm60_compat
+#define PREFIX aceax_niarmsm14_compat
 
 #define MAJOR 0
 #define MINOR 0
