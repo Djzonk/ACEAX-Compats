@@ -2,7 +2,7 @@
 #define MAINPREFIX z
 #define PREFIX aceax_niarmsm14_compat
 
-#define MAJOR 0
+#define MAJOR 1
 #define MINOR 0
 #define PATCH 0
 #define BUILD 0
