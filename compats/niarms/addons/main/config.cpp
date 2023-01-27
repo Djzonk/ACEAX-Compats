@@ -23,6 +23,7 @@ class XtdGearModels {
         #include "xtdgearmodels\sg510.hpp"
         #include "xtdgearmodels\g36.hpp"
         #include "xtdgearmodels\g3.hpp"
+        #include "xtdgearmodels\fal.hpp"
     };
 };
 
@@ -38,5 +39,6 @@ class XtdGearInfos {
         #include "xtdgearinfos\sg510.hpp"
         #include "xtdgearinfos\g36.hpp"
         #include "xtdgearinfos\g3.hpp"
+        #include "xtdgearinfos\fal.hpp"
     };
 };
