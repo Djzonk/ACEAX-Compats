@@ -19,17 +19,19 @@ workshop = [
     # Will not auto download on workshop you must do so manually
     "450814997",  # CBA_A3
     "463939057",  # ACE
-    "2522638637",  # ACEAX
+    "2522638637", # ACEAX
 
-    "667454606", #NIArms CORE
-    "875779698", #NIArms ACR-E
-    "667386534", #NiArms M14
-    "774809509",  #NIArms MG3
-    "509714345",  # NIArms Minimi
-    "330924923", #NIArms MP5
-    "1091513876",  # NIArms P226
-    "2883704439", #NIArms SCAR
-    "592647598",  # NIArms SG510
+    # NIARMS
+    "667454606",  # CORE
+    # "1091513876", # P226
+    # "875779698",  # ACR-E
+    # "774809509",  # MG3
+    # "592647598",  # SG510
+    # "2883704439", # SCAR
+    # "509714345",  # Minimi
+    # "330924923",  # MP5
+    # "667386534",  # M14
+    "594378620",  # G36
 ]
 parameters = [
     "-skipIntro",
