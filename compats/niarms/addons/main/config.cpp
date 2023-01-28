@@ -28,6 +28,7 @@ class XtdGearModels {
         #include "xtdgearmodels\aug.hpp"
         #include "xtdgearmodels\ar15.hpp"
         #include "xtdgearmodels\ak.hpp"
+        #include "xtdgearmodels\fn3011.hpp"
     };
 };
 
@@ -47,5 +48,6 @@ class XtdGearInfos {
         #include "xtdgearinfos\aug.hpp"
         #include "xtdgearinfos\ar15.hpp"
         #include "xtdgearinfos\ak.hpp"
+        #include "xtdgearinfos\fn3011.hpp"
     };
 };
