@@ -26,6 +26,7 @@ class XtdGearModels {
         #include "xtdgearmodels\fal.hpp"
         #include "xtdgearmodels\awm.hpp"
         #include "xtdgearmodels\aug.hpp"
+        #include "xtdgearmodels\ar15.hpp"
     };
 };
 
@@ -43,5 +44,6 @@ class XtdGearInfos {
         #include "xtdgearinfos\g3.hpp"
         #include "xtdgearinfos\fal.hpp"
         #include "xtdgearinfos\aug.hpp"
+        #include "xtdgearinfos\ar15.hpp"
     };
 };
