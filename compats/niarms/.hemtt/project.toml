@@ -40,11 +40,11 @@ workshop = [
     # "637519731",  # AUG
     # "667396202",  # AR15
     # "667352839",  # AK
-    "1266202915",  # FN30-11 Rifles
+    # "1266202915", # FN30-11 Rifles
+    # "1729907725" # C96 Pistols
 
 
     # Yet to add
-    # "1729907725" # C96 Pistols
     # "2594443368",  # M1941 Johnson LMG
 ]
 parameters = [
