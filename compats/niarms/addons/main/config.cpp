@@ -12,6 +12,7 @@ class CfgPatches {
 };
 
 class XtdGearModels {
+
     class CfgWeapons {
         #include "xtdgearmodels\acr.hpp"
         #include "xtdgearmodels\m14.hpp"
@@ -30,6 +31,7 @@ class XtdGearModels {
         #include "xtdgearmodels\ak.hpp"
         #include "xtdgearmodels\fn3011.hpp"
         #include "xtdgearmodels\c96.hpp"
+        #include "xtdgearmodels\hk416.hpp"
     };
 };
 
@@ -51,5 +53,6 @@ class XtdGearInfos {
         #include "xtdgearinfos\ak.hpp"
         #include "xtdgearinfos\fn3011.hpp"
         #include "xtdgearinfos\c96.hpp"
+        #include "xtdgearinfos\hk416.hpp"
     };
 };
