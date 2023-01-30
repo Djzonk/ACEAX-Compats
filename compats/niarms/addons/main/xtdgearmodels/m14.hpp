@@ -6,12 +6,15 @@ class GVAR(m14) {
         label = "Varient";
         alwaysSelectable = 1;
         changeingame = 0;
-        values[] = {"standard", "dmr"};
+        values[] = {"standard", "dmr", "sopmod"};
         class standard {
             label = "Standard";
         };
         class dmr {
             label = "DMR";
+        };
+        class sopmod {
+            label = "SOPMOD";
         };
     };
     class rail {

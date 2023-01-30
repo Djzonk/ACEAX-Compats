@@ -42,3 +42,9 @@ class hlc_rifle_M21_Rail {
     model = QGVAR(m21);
     rail = "yes";
 };
+class hlc_rifle_m14sopmod {
+    model = QGVAR(m14);
+    varient = "sopmod";
+    rail = "yes";
+    bipod = "no";
+};
