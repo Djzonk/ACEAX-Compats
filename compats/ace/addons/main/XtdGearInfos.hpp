@@ -1,5 +1,0 @@
-class XtdGearInfos {
-    class CfgWeapons {
-
-    };
-};
