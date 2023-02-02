@@ -7,7 +7,7 @@ include = [
     "meta.cpp",
     "README.md",
     "LICENSE",
-    "logo_placeholder_ca.paa", # Change to propper file name
+    "logo_ace_compat_co.paa", # Change to propper file name
 ]
 
 [version]
