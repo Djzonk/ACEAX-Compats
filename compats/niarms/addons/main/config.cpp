@@ -12,8 +12,12 @@ class CfgPatches {
 };
 
 class XtdGearModels {
-
     class CfgWeapons {
+        class GVAR(base) {
+            label = "";
+            author = "Toadie | ACEAX Compat By DJZonk";
+            options[] = {};
+        };
         #include "xtdgearmodels\acr.hpp"
         #include "xtdgearmodels\ak.hpp"
         #include "xtdgearmodels\ar15.hpp"
@@ -32,12 +36,15 @@ class XtdGearModels {
         #include "xtdgearmodels\p226.hpp"
         #include "xtdgearmodels\scar.hpp"
         #include "xtdgearmodels\sg510.hpp"
+        #include "xtdgearmodels\sg550.hpp"
         #include "xtdgearmodels\xm8.hpp"
+        #include "xtdgearmodels\misc_weapons.hpp"
     };
 };
 
 class XtdGearInfos {
     class CfgWeapons {
+
         #include "xtdgearinfos\acr.hpp"
         #include "xtdgearinfos\ak.hpp"
         #include "xtdgearinfos\ar15.hpp"
@@ -56,6 +63,8 @@ class XtdGearInfos {
         #include "xtdgearinfos\p226.hpp"
         #include "xtdgearinfos\scar.hpp"
         #include "xtdgearinfos\sg510.hpp"
+        #include "xtdgearinfos\sg550.hpp"
         #include "xtdgearinfos\xm8.hpp"
+        #include "xtdgearinfos\misc_weapons.hpp"
     };
 };
