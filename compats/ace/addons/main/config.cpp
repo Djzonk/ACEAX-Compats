@@ -82,12 +82,69 @@ class XtdGearModels {
                 };
             };
         };
-
+        class GVAR(6p57tripod) {
+            label = "6P57 Tripod";
+            author = "ACE Team | ACEAX Compat By DJZonk";
+            options[] = {"height"};
+            class height {
+                label = "Height";
+                values[] = {"low", "high"};
+                class low {
+                    label = "low";
+                };
+                class high {
+                    label = "High";
+                };
+            };
+        };
+        class GVAR(m3tripod): GVAR(6p57tripod) {
+            label = "M3 Tripod";
+        };
+        class GVAR(titanbackpack) {
+            label = "Titan";
+            author = "ACE Team | ACEAX Compat By DJZonk";
+            options[] = {"function"};
+            class function {
+                label = "Function";
+                values[] = {"at", "aa"};
+                class at {
+                    label = "AT";
+                };
+                class aa {
+                    label = "AA";
+                };
+            };
+        };
     };
 };
 
 class XtdGearInfos {
     class CfgWeapons {
+        class ace_csw_kordCarryTripod {
+            model = QGVAR(6p57tripod);
+            Height = "high";
+        };
+        class ace_csw_kordCarryTripodLow {
+            model = QGVAR(6p57tripod);
+            Height = "low";
+        };
+        class ace_csw_m3CarryTripod {
+            model = QGVAR(m3tripod);
+            Height = "high";
+        };
+        class ace_csw_m3CarryTripodLow {
+            model = QGVAR(m3tripod);
+            Height = "low";
+        };
+        class ace_csw_staticAACarry {
+            model = QGVAR(titanbackpack);
+            function = "aa";
+        };
+        class ace_csw_staticATCarry {
+            model = QGVAR(titanbackpack);
+            function = "at";
+        };
+
         class ACE_VectorDay {
             model = QGVAR(vector);
             type = "day";
