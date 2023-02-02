@@ -1,6 +1,5 @@
-class GVAR(hk416) {
+class GVAR(hk416): GVAR(base) {
     label = "HK416";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "length", "camo", "gl"};
     class length {
         label = "Barrel Length";

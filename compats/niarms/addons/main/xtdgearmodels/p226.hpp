@@ -1,6 +1,5 @@
-class GVAR(p226) {
+class GVAR(p226): GVAR(base) {
     label = "P226";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"caliber", "type", "rails", "threadedBarrel"};
     class type {
         label = "Type";
@@ -66,9 +65,8 @@ class GVAR(p226) {
         };
     };
 };
-class GVAR(p229) {
+class GVAR(p229): GVAR(base) {
     label = "P229";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"caliber", "type", "threadedBarrel"};
     class type {
         label = "Type";
@@ -118,9 +116,8 @@ class GVAR(p229) {
         };
     };
 };
-class GVAR(mk25) {
+class GVAR(mk25): GVAR(base) {
     label = "MK25";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"finish", "threadedBarrel"};
     class finish {
         label = "Finish";
@@ -146,9 +143,8 @@ class GVAR(mk25) {
         };
     };
 };
-class GVAR(p239) {
+class GVAR(p239): GVAR(base) {
     label = "P239 Subcompact";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"caliber"};
     class caliber {
         label = "Caliber";
@@ -165,9 +161,8 @@ class GVAR(p239) {
         };
     };
 };
-class GVAR(mk11) {
+class GVAR(mk11): GVAR(base) {
     label = "MK11";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"type"};
     class type {
         label = "Type";

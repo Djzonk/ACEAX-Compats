@@ -1,6 +1,5 @@
-class GVAR(m4) {
+class GVAR(m4): GVAR(base) {
     label = "M4";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "gl"};
     class variant {
         label = "Variant";
@@ -40,9 +39,8 @@ class GVAR(m4) {
         };
     };
 };
-class GVAR(ro727) {
+class GVAR(ro727): GVAR(base) {
     label = "Colt RO727";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "gl"};
     class variant {
         label = "Variant";
@@ -76,9 +74,8 @@ class GVAR(ro727) {
 
 
 
-class GVAR(ar15magpul) {
+class GVAR(ar15magpul): GVAR(base) {
     label = "AR-15 Magpul";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant"};
     class variant {
         label = "Variant";
@@ -93,9 +90,8 @@ class GVAR(ar15magpul) {
         };
     };
 };
-class GVAR(m16) {
+class GVAR(m16): GVAR(base) {
     label = "M16";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "gl"};
     class variant {
         label = "Variant";
@@ -123,9 +119,8 @@ class GVAR(m16) {
         };
     };
 };
-class GVAR(lar15) {
+class GVAR(lar15): GVAR(base) {
     label = "LAR-15";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"camo"};
     class camo {
         label = "Camo";

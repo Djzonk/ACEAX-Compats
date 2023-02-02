@@ -1,6 +1,5 @@
-class GVAR(c96) {
+class GVAR(c96): GVAR(base) {
     label = "C96";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "barrelLength", "stock", "wear"};
     class variant {
         label = "Variant";

@@ -1,6 +1,5 @@
-class GVAR(awm) {
+class GVAR(awm): GVAR(base) {
     label = "AWM";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"camo", "suppressed", "ghillie"};
     class camo {
         label = "Camo";

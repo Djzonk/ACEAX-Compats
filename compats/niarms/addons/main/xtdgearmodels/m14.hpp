@@ -1,6 +1,5 @@
-class GVAR(m14) {
+class GVAR(m14): GVAR(base) {
     label = "M14";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"varient", "rail", "bipod"};
     class varient {
         label = "Varient";
@@ -42,9 +41,8 @@ class GVAR(m14) {
         };
     };
 };
-class GVAR(m21) {
+class GVAR(m21): GVAR(base) {
     label = "M21";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"rail"};
     class rail {
         label = "Optic Rail";

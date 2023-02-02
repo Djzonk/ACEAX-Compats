@@ -1,6 +1,5 @@
-class GVAR(scarl) {
+class GVAR(scarl): GVAR(base) {
     label = "FN SCAR-L";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"camo", "gl", "barrel", "railExtension"};
     class camo {
         label = "Camo";
@@ -64,9 +63,9 @@ class GVAR(scarl) {
         };
     };
 };
-class GVAR(scarl300){
+class GVAR(scarl300): GVAR(base){
     label = "FN SCAR-L (.300)";
-    author = "Toadie | ACEAX Compat By DJZonk";
+    autor = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"camo", "gl", "barrel", "railExtension"};
     class camo {
         label = "Camo";
@@ -126,9 +125,8 @@ class GVAR(scarl300){
         };
     };
 };
-class GVAR(scarh) {
+class GVAR(scarh): GVAR(base) {
     label = "FN SCAR-H";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"camo", "gl", "barrel", "railExtension"};
     class camo {
         label = "Camo";
@@ -192,9 +190,8 @@ class GVAR(scarh) {
         };
     };
 };
-class GVAR(scarsc) {
+class GVAR(scarsc): GVAR(base) {
     label = "FN SCAR-SC";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"camo"};
     class camo {
         label = "Camo";
@@ -214,9 +211,8 @@ class GVAR(scarsc) {
         };
     };
 };
-class GVAR(tpr) {
+class GVAR(tpr): GVAR(base) {
     label = "FN TPR";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"camo"};
     class camo {
         label = "Camo";
@@ -235,9 +231,8 @@ class GVAR(tpr) {
         };
     };
 };
-class GVAR(mk17) {
+class GVAR(mk17): GVAR(base) {
     label = "MK 17";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"mod", "camo", "caliber", "barrel", "gl"};
     class mod {
         label = "Mod";

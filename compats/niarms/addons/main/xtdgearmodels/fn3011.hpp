@@ -1,6 +1,5 @@
-class GVAR(fn3011) {
+class GVAR(fn3011): GVAR(base) {
     label = "FN30-11";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "camo"};
     class variant {
         label = "Variant";

@@ -1,6 +1,5 @@
-class GVAR(acr) {
+class GVAR(acr): GVAR(base) {
     label = "ACR-E";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"camo", "barrel", "gl"};
     class camo {
         label = "Camo";
@@ -51,9 +50,8 @@ class GVAR(acr) {
         };
     };
 };
-class GVAR(acr68) {
+class GVAR(acr68): GVAR(base) {
     label = "ACR-E 6.8mm";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"camo", "barrel", "gl"};
     class camo {
         label = "Camo";
@@ -67,7 +65,7 @@ class GVAR(acr68) {
             label = "Black";
             // image = "";
         };
-        class camo {
+        class green {
             label = "Green";
             // image = "";
         };
@@ -104,9 +102,8 @@ class GVAR(acr68) {
         };
     };
 };
-class GVAR(acr_cliffhanger) {
+class GVAR(acr_cliffhanger): GVAR(base) {
     label = "ACR-E Cliffhanger";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"gl"};
     class gl {
         label = "Grenade Launcher";

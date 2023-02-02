@@ -1,6 +1,5 @@
-class GVAR(mk46) {
+class GVAR(mk46): GVAR(base) {
     label = "MK46";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"mod"};
     class mod {
         label = "Mod";
@@ -14,9 +13,8 @@ class GVAR(mk46) {
     };
 };
 class GVAR(mk48): GVAR(mk46) {label = "MK48";};
-class GVAR(m249) {
+class GVAR(m249): GVAR(base) {
     label = "M249";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"varient","barrel", "stock", "rail"};
     class varient {
         label = "Varient";
@@ -73,9 +71,8 @@ class GVAR(m249) {
         };
     };
 };
-class GVAR(minimi) {
+class GVAR(minimi): GVAR(base) {
     label = "FN Minimi";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"stock", "barrel", "rail"};
     class stock {
         label = "Stock";

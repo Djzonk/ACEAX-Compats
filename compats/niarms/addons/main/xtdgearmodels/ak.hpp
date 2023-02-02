@@ -1,6 +1,5 @@
-class GVAR(slr107u) {
+class GVAR(slr107u): GVAR(base) {
     label = "SLR107U";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"rail"};
     class rail {
         label = "Rail Mount";
@@ -17,9 +16,8 @@ class GVAR(slr107u) {
         };
     };
 };
-class GVAR(ak12) {
+class GVAR(ak12): GVAR(base) {
     label = "AK12";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"Variant", "gl"};
     class variant {
         label = "Variant";
@@ -50,9 +48,8 @@ class GVAR(ak12) {
         };
     };
 };
-class GVAR(ak74) {
+class GVAR(ak74): GVAR(base) {
     label = "AK74";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"rail", "wear"};
     class rail {
         label = "Rail Adapter";
@@ -87,9 +84,8 @@ class GVAR(ak74) {
         };
     };
 };
-class GVAR(ak74m) {
+class GVAR(ak74m): GVAR(base) {
     label = "AK74M";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"gl", "rail"};
     class gl {
         label = "Grenade Launcher";
@@ -120,9 +116,8 @@ class GVAR(ak74m) {
         };
     };
 };
-class GVAR(akm) {
+class GVAR(akm): GVAR(base) {
     label = "AKM";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"gl", "rail"};
     class gl {
         label = "Grenade Launcher";
@@ -153,9 +148,8 @@ class GVAR(akm) {
         };
     };
 };
-class GVAR(aks) {
+class GVAR(aks): GVAR(base) {
     label = "AKS";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "rail", "gl"};
     class variant {
         label = "Variant";
@@ -200,9 +194,8 @@ class GVAR(aks) {
         };
     };
 };
-class GVAR(aks74u) {
+class GVAR(aks74u): GVAR(base) {
     label = "AKS74U";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"rail"};
     class rail {
         label = "Rail Adapter";
@@ -219,9 +212,8 @@ class GVAR(aks74u) {
         };
     };
 };
-class GVAR(aek) {
+class GVAR(aek): GVAR(base) {
     label = "AKS";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"rail", "wear"};
     class rail {
         label = "Rail Adapter";
@@ -252,9 +244,8 @@ class GVAR(aek) {
         };
     };
 };
-class GVAR(rpk) {
+class GVAR(rpk): GVAR(base) {
     label = "RPK";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant"};
     class variant {
         label = "Variant";

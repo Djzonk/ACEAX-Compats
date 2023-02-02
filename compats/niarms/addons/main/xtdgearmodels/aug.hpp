@@ -1,6 +1,5 @@
-class GVAR(aug) {
+class GVAR(aug): GVAR(base) {
     label = "AUG";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "camo", "length", "gl", "rails"};
     class variant {
         label = "Variant";

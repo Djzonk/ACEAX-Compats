@@ -1,6 +1,5 @@
-class GVAR(mg42) {
+class GVAR(mg42): GVAR(base) {
     label = "MG42";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"kws", "camo", "stock"};
     class kws {
         label = "KWS Modernization";
@@ -45,9 +44,8 @@ class GVAR(mg42) {
         };
     };
 };
-class GVAR(mg3) {
+class GVAR(mg3): GVAR(base) {
     label = "MG3";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"kws", "camo", "rail"};
     class kws {
         label = "KWS Modernization";

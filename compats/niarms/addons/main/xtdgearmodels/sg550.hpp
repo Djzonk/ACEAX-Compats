@@ -1,6 +1,5 @@
-class GVAR(sg550) {
+class GVAR(sg550): GVAR(base) {
     label = "SG550";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"varient","gl", "opticRail", "barrelRail"};
     class varient {
         label = "Varient";
@@ -56,9 +55,8 @@ class GVAR(sg550) {
         };
     };
 };
-class GVAR(sg551) {
+class GVAR(sg551): GVAR(base) {
     label = "SG551";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"barrel", "gl", "opticRail", "barrelRail"};
     class barrel {
         label = "Barrel";
@@ -114,9 +112,8 @@ class GVAR(sg551) {
         };
     };
 };
-class GVAR(sg553) {
+class GVAR(sg553): GVAR(base) {
     label = "SG553";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"caliber", "barrel", "opticRail", "barrelRail"};
     class caliber {
         label = "Caliber";

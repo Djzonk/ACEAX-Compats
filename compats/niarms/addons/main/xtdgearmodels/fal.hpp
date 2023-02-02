@@ -1,6 +1,5 @@
-class GVAR(fal) {
+class GVAR(fal): GVAR(base) {
     label = "FAL";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "rail"};
     class variant {
         label = "Variant";
@@ -41,9 +40,8 @@ class GVAR(fal) {
         };
     };
 };
-class GVAR(falosw) {
+class GVAR(falosw): GVAR(base) {
     label = "FAL OSW";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"gl"};
     class gl {
         label = "Gernade Launcher";
@@ -57,9 +55,8 @@ class GVAR(falosw) {
         };
     };
 };
-class GVAR(slr) {
+class GVAR(slr): GVAR(base) {
     label = "SLR";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant"};
     class variant {
         label = "Variant";

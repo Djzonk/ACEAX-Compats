@@ -1,6 +1,5 @@
-class GVAR(xm8) {
+class GVAR(xm8): GVAR(base) {
     label = "XM8";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "length", "camo", "gl"};
     class variant {
         label = "Variant";

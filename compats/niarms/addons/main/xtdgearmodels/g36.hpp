@@ -1,6 +1,5 @@
-class GVAR(g36mlic) {
+class GVAR(g36mlic): GVAR(base) {
     label = "G36 6.5mm";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"length", "gl"};
     class length {
         label = "Length";
@@ -31,9 +30,8 @@ class GVAR(g36mlic) {
         };
     };
 };
-class GVAR(g36) {
+class GVAR(g36): GVAR(base) {
     label = "G36";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "length", "tac", "gl", "rails"};
     class variant {
         label = "Variant";

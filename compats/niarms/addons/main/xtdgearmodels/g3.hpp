@@ -1,6 +1,5 @@
-class GVAR(g3) {
+class GVAR(g3): GVAR(base) {
     label = "G3";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"variant", "gl", "handGuard", "opticRails"};
     class variant {
         label = "Variant";
@@ -54,9 +53,8 @@ class GVAR(g3) {
         };
     };
 };
-class GVAR(hk33) {
+class GVAR(hk33): GVAR(base) {
     label = "HK33";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"varient", "gl", "rails"};
         class variant {
         label = "Variant";
@@ -92,9 +90,8 @@ class GVAR(hk33) {
         };
     };
 };
-class GVAR(hk53) {
+class GVAR(hk53): GVAR(base) {
     label = "HK33";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"rails"};
     class rails {
         label = "Rails";
@@ -108,9 +105,8 @@ class GVAR(hk53) {
         };
     };
 };
-class GVAR(psg1) {
+class GVAR(psg1): GVAR(base) {
     label = "PSG1";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"optic"};
     class optic {
         label = "optic";

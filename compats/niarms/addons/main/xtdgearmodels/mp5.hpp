@@ -1,7 +1,5 @@
-
-class GVAR(mp5) {
+class GVAR(mp5): GVAR(base) {
     label = "MP5";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"stock", "fireSelector","handGuardRails"};
     class stock {
         label = "Stock";
@@ -34,9 +32,8 @@ class GVAR(mp5) {
         };
     };
 };
-class GVAR(mp5s) {
+class GVAR(mp5s): GVAR(base) {
     label = "MP5 Integrally suppressed";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"stock"};
     class stock {
         label = "Stock";
@@ -49,9 +46,8 @@ class GVAR(mp5s) {
         };
     };
 };
-class GVAR(mp510) {
+class GVAR(mp510): GVAR(base) {
     label = "MP5 10MM";
-    author = "Toadie | ACEAX Compat By DJZonk";
     options[] = {"handGuardRails"};
     class handGuardRails {
         label = "Hand Guard Rails";
