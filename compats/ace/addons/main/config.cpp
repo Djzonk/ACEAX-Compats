@@ -13,21 +13,22 @@ class CfgPatches {
 
 class XtdGearModels {
     class CfgWeapons {
-        class GVAR(gunbag) {
-            label = "Gun Bag";
-            author = "ACE Team | ACEAX Compat By DJZonk";
-            options[] = {"color"};
-            class color {
-                label = "Color";
-                values[] = {"green", "tan"};
-                class green {
-                    label = "Green";
-                };
-                class tan {
-                    label = "Tan";
-                };
-            };
-        };
+        // No idea why it dosent work
+        // class GVAR(gunbag) {
+        //     label = "Gun Bag";
+        //     author = "ACE Team | ACEAX Compat By DJZonk";
+        //     options[] = {"color"};
+        //     class color {
+        //         label = "Color";
+        //         values[] = {"green", "tan"};
+        //         class green {
+        //             label = "Green";
+        //         };
+        //         class tan {
+        //             label = "Tan";
+        //         };
+        //     };
+        // };
         class GVAR(nvgs) {
             label = "NVGs";
             author = "ACE Team | ACEAX Compat By DJZonk";
@@ -154,14 +155,15 @@ class XtdGearInfos {
             type = "nite";
         };
 
-        class ACE_gunbag {
-            model = QGVAR(gunbag);
-            color = "green";
-        };
-        class ACE_gunbag_Tan {
-            model = QGVAR(gunbag);
-            color = "tan";
-        };
+        // Dosent work no idea why
+        // class ACE_gunbag {
+        //     model = QGVAR(gunbag);
+        //     color = "green";
+        // };
+        // class ACE_gunbag_Tan {
+        //     model = QGVAR(gunbag);
+        //     color = "tan";
+        // };
 
         #define XTDNVGS(CLASS,GEN,COLOR) \
         class CLASS { \
