@@ -13,22 +13,6 @@ class CfgPatches {
 
 class XtdGearModels {
     class CfgWeapons {
-        // No idea why it dosent work
-        // class GVAR(gunbag) {
-        //     label = "Gun Bag";
-        //     author = "ACE Team | ACEAX Compat By DJZonk";
-        //     options[] = {"color"};
-        //     class color {
-        //         label = "Color";
-        //         values[] = {"green", "tan"};
-        //         class green {
-        //             label = "Green";
-        //         };
-        //         class tan {
-        //             label = "Tan";
-        //         };
-        //     };
-        // };
         class GVAR(nvgs) {
             label = "NVGs";
             author = "ACE Team | ACEAX Compat By DJZonk";
@@ -117,6 +101,24 @@ class XtdGearModels {
             };
         };
     };
+
+    class CfgVehicles {
+        class GVAR(gunbag) {
+            label = "Gun Bag";
+            author = "ACE Team | ACEAX Compat By DJZonk";
+            options[] = {"color"};
+            class color {
+                label = "Color";
+                values[] = {"green", "tan"};
+                class green {
+                    label = "Green";
+                };
+                class tan {
+                    label = "Tan";
+                };
+            };
+        };
+    };
 };
 
 class XtdGearInfos {
@@ -155,15 +157,7 @@ class XtdGearInfos {
             type = "nite";
         };
 
-        // Dosent work no idea why
-        // class ACE_gunbag {
-        //     model = QGVAR(gunbag);
-        //     color = "green";
-        // };
-        // class ACE_gunbag_Tan {
-        //     model = QGVAR(gunbag);
-        //     color = "tan";
-        // };
+
 
         #define XTDNVGS(CLASS,GEN,COLOR) \
         class CLASS { \
@@ -187,5 +181,16 @@ class XtdGearInfos {
         XTDNVGS(ACE_NVG_Wide_Black, wide, black)
         XTDNVGS(ACE_NVG_Wide,       wide, brown)
         XTDNVGS(ACE_NVG_Wide_Green, wide, green)
+    };
+
+    class CfgVehicles {
+        class ACE_gunbag {
+            model = QGVAR(gunbag);
+            color = "green";
+        };
+        class ACE_gunbag_Tan {
+            model = QGVAR(gunbag);
+            color = "tan";
+        };
     };
 };
